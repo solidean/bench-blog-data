@@ -1,0 +1,138 @@
+{
+  "kind": "boolean-benchmark",
+  "version": 1,
+  "id": "manual-primitives-A-minus-B-to-J",
+  "runs": [
+    {
+      "case_id": "primitives_A_minus_B_to_J",
+      "bounding_box": {
+        "min": [
+          -1.5,
+          -1.5,
+          -1.5
+        ],
+        "max": [
+          1.5,
+          1.5,
+          1.5
+        ]
+      },
+      "operations": [
+        {
+          "op": "load-mesh",
+          "path": "A.obj",
+          "name": "A.obj"
+        },
+        {
+          "op": "load-mesh",
+          "path": "B.obj",
+          "name": "B.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            0,
+            1
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "C.obj",
+          "name": "C.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            2,
+            3
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "D.obj",
+          "name": "D.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            4,
+            5
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "E.obj",
+          "name": "E.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            6,
+            7
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "F.obj",
+          "name": "F.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            8,
+            9
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "G.obj",
+          "name": "G.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            10,
+            11
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "H.obj",
+          "name": "H.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            12,
+            13
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "I.obj",
+          "name": "I.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            14,
+            15
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "J.obj",
+          "name": "J.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            16,
+            17
+          ],
+          "name": "result"
+        }
+      ]
+    }
+  ]
+}
