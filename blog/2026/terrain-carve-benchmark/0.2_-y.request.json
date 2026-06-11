@@ -1,0 +1,2719 @@
+{
+  "kind": "boolean-benchmark",
+  "version": 1,
+  "id": "manual-iterated-0.2_-y",
+  "runs": [
+    {
+      "case_id": "iterated_0.2_-y",
+      "out_dir": "heightmap/0.2_-y/.out",
+      "bounding_box": {
+        "min": [
+          -0.93345,
+          0.616359,
+          -0.97287
+        ],
+        "max": [
+          0.91145,
+          1.38,
+          0.95287
+        ]
+      },
+      "operations": [
+        {
+          "op": "load-mesh",
+          "path": "heightmap/workpiece.obj",
+          "name": "workpiece.obj"
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/0.obj",
+          "name": "0.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            0,
+            1
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/1.obj",
+          "name": "1.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            2,
+            3
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/2.obj",
+          "name": "2.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            4,
+            5
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/3.obj",
+          "name": "3.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            6,
+            7
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/4.obj",
+          "name": "4.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            8,
+            9
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/5.obj",
+          "name": "5.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            10,
+            11
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/6.obj",
+          "name": "6.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            12,
+            13
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/7.obj",
+          "name": "7.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            14,
+            15
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/8.obj",
+          "name": "8.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            16,
+            17
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/9.obj",
+          "name": "9.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            18,
+            19
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/10.obj",
+          "name": "10.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            20,
+            21
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/11.obj",
+          "name": "11.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            22,
+            23
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/12.obj",
+          "name": "12.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            24,
+            25
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/13.obj",
+          "name": "13.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            26,
+            27
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/14.obj",
+          "name": "14.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            28,
+            29
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/15.obj",
+          "name": "15.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            30,
+            31
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/16.obj",
+          "name": "16.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            32,
+            33
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/17.obj",
+          "name": "17.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            34,
+            35
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/18.obj",
+          "name": "18.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            36,
+            37
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/19.obj",
+          "name": "19.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            38,
+            39
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/20.obj",
+          "name": "20.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            40,
+            41
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/21.obj",
+          "name": "21.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            42,
+            43
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/22.obj",
+          "name": "22.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            44,
+            45
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/23.obj",
+          "name": "23.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            46,
+            47
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/24.obj",
+          "name": "24.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            48,
+            49
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/25.obj",
+          "name": "25.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            50,
+            51
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/26.obj",
+          "name": "26.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            52,
+            53
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/27.obj",
+          "name": "27.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            54,
+            55
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/28.obj",
+          "name": "28.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            56,
+            57
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/29.obj",
+          "name": "29.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            58,
+            59
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/30.obj",
+          "name": "30.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            60,
+            61
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/31.obj",
+          "name": "31.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            62,
+            63
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/32.obj",
+          "name": "32.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            64,
+            65
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/33.obj",
+          "name": "33.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            66,
+            67
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/34.obj",
+          "name": "34.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            68,
+            69
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/35.obj",
+          "name": "35.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            70,
+            71
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/36.obj",
+          "name": "36.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            72,
+            73
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/37.obj",
+          "name": "37.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            74,
+            75
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/38.obj",
+          "name": "38.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            76,
+            77
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/39.obj",
+          "name": "39.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            78,
+            79
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/40.obj",
+          "name": "40.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            80,
+            81
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/41.obj",
+          "name": "41.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            82,
+            83
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/42.obj",
+          "name": "42.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            84,
+            85
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/43.obj",
+          "name": "43.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            86,
+            87
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/44.obj",
+          "name": "44.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            88,
+            89
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/45.obj",
+          "name": "45.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            90,
+            91
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/46.obj",
+          "name": "46.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            92,
+            93
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/47.obj",
+          "name": "47.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            94,
+            95
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/48.obj",
+          "name": "48.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            96,
+            97
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/49.obj",
+          "name": "49.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            98,
+            99
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/50.obj",
+          "name": "50.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            100,
+            101
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/51.obj",
+          "name": "51.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            102,
+            103
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/52.obj",
+          "name": "52.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            104,
+            105
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/53.obj",
+          "name": "53.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            106,
+            107
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/54.obj",
+          "name": "54.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            108,
+            109
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/55.obj",
+          "name": "55.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            110,
+            111
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/56.obj",
+          "name": "56.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            112,
+            113
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/57.obj",
+          "name": "57.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            114,
+            115
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/58.obj",
+          "name": "58.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            116,
+            117
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/59.obj",
+          "name": "59.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            118,
+            119
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/60.obj",
+          "name": "60.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            120,
+            121
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/61.obj",
+          "name": "61.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            122,
+            123
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/62.obj",
+          "name": "62.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            124,
+            125
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/63.obj",
+          "name": "63.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            126,
+            127
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/64.obj",
+          "name": "64.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            128,
+            129
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/65.obj",
+          "name": "65.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            130,
+            131
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/66.obj",
+          "name": "66.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            132,
+            133
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/67.obj",
+          "name": "67.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            134,
+            135
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/68.obj",
+          "name": "68.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            136,
+            137
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/69.obj",
+          "name": "69.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            138,
+            139
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/70.obj",
+          "name": "70.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            140,
+            141
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/71.obj",
+          "name": "71.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            142,
+            143
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/72.obj",
+          "name": "72.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            144,
+            145
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/73.obj",
+          "name": "73.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            146,
+            147
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/74.obj",
+          "name": "74.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            148,
+            149
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/75.obj",
+          "name": "75.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            150,
+            151
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/76.obj",
+          "name": "76.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            152,
+            153
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/77.obj",
+          "name": "77.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            154,
+            155
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/78.obj",
+          "name": "78.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            156,
+            157
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/79.obj",
+          "name": "79.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            158,
+            159
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/80.obj",
+          "name": "80.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            160,
+            161
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/81.obj",
+          "name": "81.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            162,
+            163
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/82.obj",
+          "name": "82.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            164,
+            165
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/83.obj",
+          "name": "83.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            166,
+            167
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/84.obj",
+          "name": "84.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            168,
+            169
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/85.obj",
+          "name": "85.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            170,
+            171
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/86.obj",
+          "name": "86.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            172,
+            173
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/87.obj",
+          "name": "87.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            174,
+            175
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/88.obj",
+          "name": "88.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            176,
+            177
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/89.obj",
+          "name": "89.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            178,
+            179
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/90.obj",
+          "name": "90.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            180,
+            181
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/91.obj",
+          "name": "91.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            182,
+            183
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/92.obj",
+          "name": "92.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            184,
+            185
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/93.obj",
+          "name": "93.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            186,
+            187
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/94.obj",
+          "name": "94.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            188,
+            189
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/95.obj",
+          "name": "95.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            190,
+            191
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/96.obj",
+          "name": "96.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            192,
+            193
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/97.obj",
+          "name": "97.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            194,
+            195
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/98.obj",
+          "name": "98.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            196,
+            197
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/99.obj",
+          "name": "99.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            198,
+            199
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/100.obj",
+          "name": "100.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            200,
+            201
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/101.obj",
+          "name": "101.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            202,
+            203
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/102.obj",
+          "name": "102.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            204,
+            205
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/103.obj",
+          "name": "103.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            206,
+            207
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/104.obj",
+          "name": "104.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            208,
+            209
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/105.obj",
+          "name": "105.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            210,
+            211
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/106.obj",
+          "name": "106.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            212,
+            213
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/107.obj",
+          "name": "107.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            214,
+            215
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/108.obj",
+          "name": "108.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            216,
+            217
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/109.obj",
+          "name": "109.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            218,
+            219
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/110.obj",
+          "name": "110.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            220,
+            221
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/111.obj",
+          "name": "111.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            222,
+            223
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/112.obj",
+          "name": "112.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            224,
+            225
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/113.obj",
+          "name": "113.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            226,
+            227
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/114.obj",
+          "name": "114.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            228,
+            229
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/115.obj",
+          "name": "115.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            230,
+            231
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/116.obj",
+          "name": "116.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            232,
+            233
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/117.obj",
+          "name": "117.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            234,
+            235
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/118.obj",
+          "name": "118.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            236,
+            237
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/119.obj",
+          "name": "119.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            238,
+            239
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/120.obj",
+          "name": "120.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            240,
+            241
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/121.obj",
+          "name": "121.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            242,
+            243
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/122.obj",
+          "name": "122.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            244,
+            245
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/123.obj",
+          "name": "123.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            246,
+            247
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/124.obj",
+          "name": "124.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            248,
+            249
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/125.obj",
+          "name": "125.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            250,
+            251
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/126.obj",
+          "name": "126.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            252,
+            253
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/127.obj",
+          "name": "127.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            254,
+            255
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/128.obj",
+          "name": "128.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            256,
+            257
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/129.obj",
+          "name": "129.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            258,
+            259
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/130.obj",
+          "name": "130.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            260,
+            261
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/131.obj",
+          "name": "131.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            262,
+            263
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/132.obj",
+          "name": "132.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            264,
+            265
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/133.obj",
+          "name": "133.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            266,
+            267
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/134.obj",
+          "name": "134.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            268,
+            269
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/135.obj",
+          "name": "135.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            270,
+            271
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/136.obj",
+          "name": "136.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            272,
+            273
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/137.obj",
+          "name": "137.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            274,
+            275
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/138.obj",
+          "name": "138.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            276,
+            277
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/139.obj",
+          "name": "139.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            278,
+            279
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/140.obj",
+          "name": "140.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            280,
+            281
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/141.obj",
+          "name": "141.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            282,
+            283
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/142.obj",
+          "name": "142.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            284,
+            285
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/143.obj",
+          "name": "143.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            286,
+            287
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/144.obj",
+          "name": "144.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            288,
+            289
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/145.obj",
+          "name": "145.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            290,
+            291
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/146.obj",
+          "name": "146.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            292,
+            293
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/147.obj",
+          "name": "147.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            294,
+            295
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/148.obj",
+          "name": "148.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            296,
+            297
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/149.obj",
+          "name": "149.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            298,
+            299
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/150.obj",
+          "name": "150.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            300,
+            301
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/151.obj",
+          "name": "151.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            302,
+            303
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/152.obj",
+          "name": "152.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            304,
+            305
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/153.obj",
+          "name": "153.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            306,
+            307
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/154.obj",
+          "name": "154.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            308,
+            309
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/155.obj",
+          "name": "155.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            310,
+            311
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/156.obj",
+          "name": "156.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            312,
+            313
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/157.obj",
+          "name": "157.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            314,
+            315
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/158.obj",
+          "name": "158.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            316,
+            317
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/159.obj",
+          "name": "159.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            318,
+            319
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/160.obj",
+          "name": "160.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            320,
+            321
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/161.obj",
+          "name": "161.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            322,
+            323
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/162.obj",
+          "name": "162.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            324,
+            325
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/163.obj",
+          "name": "163.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            326,
+            327
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/164.obj",
+          "name": "164.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            328,
+            329
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/165.obj",
+          "name": "165.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            330,
+            331
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/166.obj",
+          "name": "166.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            332,
+            333
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/167.obj",
+          "name": "167.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            334,
+            335
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/168.obj",
+          "name": "168.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            336,
+            337
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/169.obj",
+          "name": "169.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            338,
+            339
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/170.obj",
+          "name": "170.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            340,
+            341
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/171.obj",
+          "name": "171.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            342,
+            343
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/172.obj",
+          "name": "172.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            344,
+            345
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/173.obj",
+          "name": "173.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            346,
+            347
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/174.obj",
+          "name": "174.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            348,
+            349
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/175.obj",
+          "name": "175.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            350,
+            351
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/176.obj",
+          "name": "176.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            352,
+            353
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/177.obj",
+          "name": "177.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            354,
+            355
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/178.obj",
+          "name": "178.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            356,
+            357
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/179.obj",
+          "name": "179.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            358,
+            359
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/180.obj",
+          "name": "180.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            360,
+            361
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/181.obj",
+          "name": "181.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            362,
+            363
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/182.obj",
+          "name": "182.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            364,
+            365
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/183.obj",
+          "name": "183.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            366,
+            367
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/184.obj",
+          "name": "184.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            368,
+            369
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/185.obj",
+          "name": "185.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            370,
+            371
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/186.obj",
+          "name": "186.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            372,
+            373
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/187.obj",
+          "name": "187.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            374,
+            375
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/188.obj",
+          "name": "188.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            376,
+            377
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/189.obj",
+          "name": "189.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            378,
+            379
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/190.obj",
+          "name": "190.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            380,
+            381
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/191.obj",
+          "name": "191.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            382,
+            383
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/192.obj",
+          "name": "192.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            384,
+            385
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/193.obj",
+          "name": "193.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            386,
+            387
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/194.obj",
+          "name": "194.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            388,
+            389
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/195.obj",
+          "name": "195.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            390,
+            391
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/196.obj",
+          "name": "196.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            392,
+            393
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/197.obj",
+          "name": "197.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            394,
+            395
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/198.obj",
+          "name": "198.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            396,
+            397
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/199.obj",
+          "name": "199.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            398,
+            399
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/200.obj",
+          "name": "200.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            400,
+            401
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/201.obj",
+          "name": "201.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            402,
+            403
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/202.obj",
+          "name": "202.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            404,
+            405
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/203.obj",
+          "name": "203.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            406,
+            407
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/204.obj",
+          "name": "204.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            408,
+            409
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/205.obj",
+          "name": "205.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            410,
+            411
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/206.obj",
+          "name": "206.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            412,
+            413
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/207.obj",
+          "name": "207.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            414,
+            415
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/208.obj",
+          "name": "208.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            416,
+            417
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/209.obj",
+          "name": "209.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            418,
+            419
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/210.obj",
+          "name": "210.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            420,
+            421
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/211.obj",
+          "name": "211.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            422,
+            423
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/212.obj",
+          "name": "212.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            424,
+            425
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/213.obj",
+          "name": "213.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            426,
+            427
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/214.obj",
+          "name": "214.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            428,
+            429
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/215.obj",
+          "name": "215.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            430,
+            431
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/216.obj",
+          "name": "216.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            432,
+            433
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/217.obj",
+          "name": "217.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            434,
+            435
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/218.obj",
+          "name": "218.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            436,
+            437
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/219.obj",
+          "name": "219.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            438,
+            439
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/220.obj",
+          "name": "220.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            440,
+            441
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/221.obj",
+          "name": "221.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            442,
+            443
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/222.obj",
+          "name": "222.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            444,
+            445
+          ]
+        },
+        {
+          "op": "load-mesh",
+          "path": "heightmap/0.2_-y/223.obj",
+          "name": "223.obj"
+        },
+        {
+          "op": "boolean-difference",
+          "args": [
+            446,
+            447
+          ],
+          "name": "result"
+        }
+      ]
+    }
+  ]
+}
