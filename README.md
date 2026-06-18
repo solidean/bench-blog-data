@@ -2,6 +2,8 @@
 
 Benchmark data &amp; meshes for the mini benchmarks on https://solidean.com/blog/
 
+* https://solidean.com/blog/2026/terrain-carve-benchmark/
+* https://solidean.com/blog/2026/first-benchmark-results-iterated-csg/
 
 ## License
 
